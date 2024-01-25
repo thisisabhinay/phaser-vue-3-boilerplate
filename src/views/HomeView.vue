@@ -1,5 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import GameInstance from "@/components/GameInstance.vue"
+</script>
 
 <template>
-  <main>This is home page</main>
+  <main class="flex flex-col gap-4">
+    Game instance:
+    <GameInstance />
+  </main>
 </template>
